@@ -1,4 +1,4 @@
-FROM elasticsearch:5.6.4-alpine
+FROM elasticsearch:5.6.7-alpine
 ENV PATH $PATH:/usr/share/elasticsearch/bin
 
 COPY fix-permissions /usr/libexec/fix-permissions
