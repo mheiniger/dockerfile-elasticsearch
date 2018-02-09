@@ -15,4 +15,6 @@ path:
 node:
   name: ${HOSTNAME}
 
-script.inline: on
+script.inline: true
+
+script.engine.groovy.inline: true
