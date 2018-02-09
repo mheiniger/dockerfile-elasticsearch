@@ -5,7 +5,7 @@ services:
   - docker
 
 env:
-  - NAME=elasticsearch TAGS="livingdocs/elasticsearch:latest livingdocs/elasticsearch:1 livingdocs/elasticsearch:1.7 livingdocs/elasticsearch:1.7.5"
+  - NAME=elasticsearch TAGS="livingdocs/elasticsearch:latest livingdocs/elasticsearch:5 livingdocs/elasticsearch:5.6 livingdocs/elasticsearch:5.6.7"
 
 script:
   - docker build -t $NAME .
